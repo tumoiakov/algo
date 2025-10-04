@@ -35,3 +35,5 @@ function randomizedPartition(arr: number[], l: number, r: number): number {
 const arr = [4, 3, 2, 6, 8, 14, 5, 22, 22, 44, 1, 1, 2];
 quicksort(arr);
 console.log(arr);
+
+export { randomizedPartition }
